@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: 4f34df453afc5324cb2934a04b1ff652
+timeCreated: 1487685668
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Plane
+    100004: Plane_001
+    100006: Plane_002
+    100008: frame_lines
+    100010: level_balance
+    100012: level_horizon
+    100014: frame_lines_cutout
+    100016: frame_lines_full
+    100018: grid_horizontal_001
+    100020: grid_horizontal
+    100022: grid_horizontal_000
+    100024: grid_verticle
+    100026: reticle
+    100028: frame_lines_full_001
+    100030: frame_lines_blackedout
+    100032: level_horizon_small
+    100034: frame_lines_dotted_grid
+    100036: frame_lines_printers_marks
+    400000: //RootNode
+    400002: Plane
+    400004: Plane_001
+    400006: Plane_002
+    400008: frame_lines
+    400010: level_balance
+    400012: level_horizon
+    400014: frame_lines_cutout
+    400016: frame_lines_full
+    400018: grid_horizontal_001
+    400020: grid_horizontal
+    400022: grid_horizontal_000
+    400024: grid_verticle
+    400026: reticle
+    400028: frame_lines_full_001
+    400030: frame_lines_blackedout
+    400032: level_horizon_small
+    400034: frame_lines_dotted_grid
+    400036: frame_lines_printers_marks
+    2300000: //RootNode
+    2300002: Plane
+    2300004: Plane_001
+    2300006: Plane_002
+    2300008: frame_lines
+    2300010: level_balance
+    2300012: level_horizon
+    2300014: frame_lines_cutout
+    2300016: frame_lines_full
+    2300018: grid_horizontal_001
+    2300020: grid_horizontal
+    2300022: grid_horizontal_000
+    2300024: grid_verticle
+    2300026: reticle
+    2300028: frame_lines_full_001
+    2300030: frame_lines_blackedout
+    2300032: level_horizon_small
+    2300034: frame_lines_dotted_grid
+    2300036: frame_lines_printers_marks
+    3300000: //RootNode
+    3300002: Plane
+    3300004: Plane_001
+    3300006: Plane_002
+    3300008: frame_lines
+    3300010: level_balance
+    3300012: level_horizon
+    3300014: frame_lines_cutout
+    3300016: frame_lines_full
+    3300018: grid_horizontal_001
+    3300020: grid_horizontal
+    3300022: grid_horizontal_000
+    3300024: grid_verticle
+    3300026: reticle
+    3300028: frame_lines_full_001
+    3300030: frame_lines_blackedout
+    3300032: level_horizon_small
+    3300034: frame_lines_dotted_grid
+    3300036: frame_lines_printers_marks
+    4300000: Plane
+    4300002: Plane_002
+    4300004: Plane_001
+    4300006: level_horizon
+    4300008: level_balance
+    4300010: frame_lines
+    4300012: frame_lines_full
+    4300014: frame_lines_cutout
+    4300016: grid_horizontal_001
+    4300018: grid_horizontal
+    4300020: grid_verticle
+    4300022: grid_horizontal_000
+    4300024: reticle
+    4300026: frame_lines_full_001
+    4300028: frame_lines_blackedout
+    4300030: level_horizon_small
+    4300032: frame_lines_dotted_grid
+    4300034: frame_lines_printers_marks
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: c3864301cdbe94641b81e371dc027fc6
+timeCreated: 1488154952
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: frame_lines_blackedout
+    100002: frame_lines_cutout
+    100004: frame_lines_dotted_grid
+    100006: frame_lines_full
+    100008: frame_lines_printers_marks
+    100010: //RootNode
+    100012: grid_horizontal
+    100014: grid_verticle
+    100016: level_balance
+    100018: level_horizon
+    100020: level_horizon_small
+    100022: reticle
+    400000: frame_lines_blackedout
+    400002: frame_lines_cutout
+    400004: frame_lines_dotted_grid
+    400006: frame_lines_full
+    400008: frame_lines_printers_marks
+    400010: //RootNode
+    400012: grid_horizontal
+    400014: grid_verticle
+    400016: level_balance
+    400018: level_horizon
+    400020: level_horizon_small
+    400022: reticle
+    2300000: frame_lines_blackedout
+    2300002: frame_lines_cutout
+    2300004: frame_lines_dotted_grid
+    2300006: frame_lines_full
+    2300008: frame_lines_printers_marks
+    2300010: grid_horizontal
+    2300012: grid_verticle
+    2300014: level_balance
+    2300016: level_horizon
+    2300018: level_horizon_small
+    2300020: reticle
+    3300000: frame_lines_blackedout
+    3300002: frame_lines_cutout
+    3300004: frame_lines_dotted_grid
+    3300006: frame_lines_full
+    3300008: frame_lines_printers_marks
+    3300010: grid_horizontal
+    3300012: grid_verticle
+    3300014: level_balance
+    3300016: level_horizon
+    3300018: level_horizon_small
+    3300020: reticle
+    4300000: frame_lines_printers_marks
+    4300002: frame_lines_dotted_grid
+    4300004: level_horizon_small
+    4300006: frame_lines_blackedout
+    4300008: reticle
+    4300010: grid_horizontal
+    4300012: level_horizon
+    4300014: level_balance
+    4300016: frame_lines_full
+    4300018: frame_lines_cutout
+    4300020: grid_verticle
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
