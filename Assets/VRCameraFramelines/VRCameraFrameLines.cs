@@ -58,14 +58,14 @@ public class VRCameraFrameLines : MonoBehaviour
 
 	public MonoBehaviour[] ComponentsToDisableOnLoad = new MonoBehaviour[0];
 
-//	[Header("Runtime")]
-	private GameObject CurrentFrameLines = null;
-	private VRCameraFrameObject ctrl = null;
-
 	[Header("Prefabs")]
-	public GameObject FramelinesPrefab;
 	[Tooltip("If you need special things attached to your regular camera, copy the prefab in the Resources folder to a new folder and add the prefab here. Not used with Frame Only setting.")]
 	public GameObject DisplayCameraPrefab;
+
+	// Runtime
+	private GameObject framelinesPrefab;
+	private GameObject CurrentFrameLines = null;
+	private VRCameraFrameObject ctrl = null;
 
 	void Awake()
 	{
@@ -74,6 +74,12 @@ public class VRCameraFrameLines : MonoBehaviour
 			VRCameraHideRef[] objs = GameObject.FindObjectsOfType<VRCameraHideRef>();
 			for(int i = 0; i < objs.Length; i++)
 				objs[i].gameObject.SetActive(false);
+		}
+
+		if(FrameLineLayer > 31 || FrameLineLayer < 1)
+		{
+			Debug.LogError("Frameline layer on VR Camera Frameline set to " + FrameLineLayer +". This value must be between 1 and 32. Can not be 0");
+			FrameLineLayer = 31;
 		}
 	}
 
@@ -136,13 +142,13 @@ public class VRCameraFrameLines : MonoBehaviour
 
 	void InitializeFrameOnly()
 	{
-		if(this.FramelinesPrefab == null)
-			this.FramelinesPrefab = Resources.Load<GameObject>("VRCameraFrameLinesFast");
+		if(this.framelinesPrefab == null)
+			this.framelinesPrefab = Resources.Load<GameObject>("VRCameraFrameLinesFast");
 
 		if(CurrentFrameLines != null)
 			GameObject.Destroy(CurrentFrameLines);
 
-		GameObject frameLines = GameObject.Instantiate(this.FramelinesPrefab);
+		GameObject frameLines = GameObject.Instantiate(this.framelinesPrefab);
 
 		frameLines.name = "VR Camera Frame Lines";
 
@@ -199,15 +205,15 @@ public class VRCameraFrameLines : MonoBehaviour
 
 	private VRCameraFrameObject CreateVRFrameLines()
 	{
-		if(this.FramelinesPrefab == null)
-			this.FramelinesPrefab = Resources.Load<GameObject>("VRCameraFrameLines");
+		if(this.framelinesPrefab == null)
+			this.framelinesPrefab = Resources.Load<GameObject>("VRCameraFrameLines");
 
 		if(CurrentFrameLines != null)
 		{
 			GameObject.Destroy(CurrentFrameLines);
 		}
 
-		GameObject frameLines = GameObject.Instantiate(this.FramelinesPrefab);
+		GameObject frameLines = GameObject.Instantiate(this.framelinesPrefab);
 
 		frameLines.name = "VR Camera Frame Lines";
 
