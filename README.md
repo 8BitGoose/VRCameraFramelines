@@ -18,7 +18,9 @@ Tested Version: Unity 2017.1.2
 ## Version 1.1 - Whats New??
 
 On Screen Notes - Notes can appear above, below and in the VR headset.
+
 Camera Smoothing - Turn on camera smoothing, no more pukefest.
+
 Custom Inspector - Easier to use customized inspector.
 
 ## Performance Note
