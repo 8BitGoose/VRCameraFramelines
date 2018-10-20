@@ -1,6 +1,12 @@
 # VR Camera Framelines
 Useful tool to help you record in game footage while in your headset. Created while filming devlogs for the game Windfall, A VR Sailing Experience.
 
+![1st Version](https://thumbs.gfycat.com/AridCapitalGodwit-size_restricted.gif)
+1st Version Gfy: https://gfycat.com/aridcapitalgodwit
+
+![2nd Improved Version Version](https://thumbs.gfycat.com/GoodnaturedGaseousGoldfinch-size_restricted.gif)
+2nd Version Gfy: https://gfycat.com/GoodnaturedGaseousGoldfinch
+
 Tested Version: Unity 2017.1.2
 
 ## To Get Started
